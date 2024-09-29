@@ -1,0 +1,18 @@
+body{
+    background-color: #e5fff2;
+}
+.items{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color:rgb(210, 210, 210);
+}
+
+@media screen and (max-width: 480px) {
+    .items{
+        display:none;
+    }
+}
